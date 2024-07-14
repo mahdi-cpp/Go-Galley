@@ -1,11 +1,11 @@
 package Go_Galley
 
 import (
-	"Go-Galley/models"
+	"Go-Galley/model"
 	"github.com/mahdi.cpp/Go-Gallery/models"
 )
 
 func main() {
 
-	models.
+	model.
 }
