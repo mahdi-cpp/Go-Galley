@@ -1,8 +1,7 @@
 package Go_Galley
 
 import (
-	"Go-Galley/model"
-	"github.com/mahdi.cpp/Go-Gallery/models"
+	"github.com/mahdi-cpp/Go-Galley/model"
 )
 
 func main() {
