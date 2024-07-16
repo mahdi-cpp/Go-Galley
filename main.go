@@ -1,10 +1,7 @@
-package Go_Galley
-
-import (
-	"github.com/mahdi-cpp/Go-Galley/model"
-)
+package main
 
 func main() {
+	//m := model.Music{Name: "name", Width: 58}
+	//fmt.Println(m)
 
-	model.
 }
