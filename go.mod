@@ -3,7 +3,6 @@ module github.com/mahdi-cpp/Go-Galley
 go 1.22.2
 
 require (
-	github.com/mahdi-cpp/go-english v0.0.0-20240715211841-e3e48a3ff2c8
 	gorm.io/gorm v1.25.11
 )
 

@@ -2,7 +2,7 @@ package repository
 
 import (
 	"fmt"
-	"github.com/mahdi-cpp/go-english/config"
+	"github.com/mahdi-cpp/Go-Galley/config"
 	"time"
 
 	"gorm.io/gorm"
@@ -10,7 +10,8 @@ import (
 
 var DB *gorm.DB
 
-func Con() {
+func DatabaseInit() {
+	config.DatabaseInit()
 	DB = config.DB
 }
 
@@ -35,7 +36,7 @@ type PersonAddress struct {
 
 func OverrideJoinTable() {
 
-	Con()
+	DatabaseInit()
 
 	DB.Migrator().DropTable(&Person{}, &Address{}, &PersonAddress{})
 
