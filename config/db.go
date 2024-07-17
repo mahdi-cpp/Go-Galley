@@ -24,8 +24,4 @@ func DatabaseInit() {
 		println("Failed to connect database shopgram.english\"")
 		os.Exit(1)
 	}
-
-	//DB.AutoMigrate(&models.Word{})
-	//DB.AutoMigrate(&models.Translation{})
-	//DB.AutoMigrate(&models.Category{})
 }

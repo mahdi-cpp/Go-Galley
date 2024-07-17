@@ -7,6 +7,9 @@ func main() {
 	//fmt.Println(m)
 	repository.DatabaseInit()
 
-	repository.UserStart()
+	//repository.UserStart()
+	repository.PostStart()
+
+	Run()
 
 }
